@@ -1,0 +1,60 @@
+/* src/assets/css/style.css */
+
+/* Main container adjustments */
+#main-container-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Margin between inputs */
+  .header-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table adjustments */
+  .ant-table {
+    background-color: #f8f9fa; /* Bootstrap light gray background */
+  }
+  
+  /* Column headers styling */
+  .ant-table-thead > tr > th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+  }
+  
+  /* Bootstrap button styles for Edit and Delete */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+  }
+  
+  /* Adjust padding and color for Ant Design link buttons */
+  .ant-btn-link {
+    padding: 0;
+    color: #007bff;
+  }
+  
+  .ant-btn-link:hover {
+    color: #0056b3;
+  }
+  
